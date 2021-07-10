@@ -1,0 +1,16 @@
+name: tf_mac
+channels:
+  - apple
+  - defaults
+dependencies:
+  - python==3.8.10
+  - tensorflow-deps
+  - pip
+  - pip:
+      - tensorflow-macos
+      - tensorflow_datasets
+      - wandb
+      - pylint
+      - flake8
+      - black
+

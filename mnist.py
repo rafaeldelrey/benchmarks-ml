@@ -21,7 +21,7 @@ def main():
 
     params = dict(
         model="mnist",
-        group="group_002",
+        group="group_001",
         using_gpu=is_using_gpu(),
         use_mixed_precision=False,
         use_xla=False,
