@@ -1,0 +1,14 @@
+name: tf
+channels:
+  - defaults
+dependencies:
+  - python==3.8.10
+  - pip
+  - pip:
+      - tensorflow-cpu
+      - tensorflow_datasets
+      - wandb
+      - pylint
+      - flake8
+      - black
+

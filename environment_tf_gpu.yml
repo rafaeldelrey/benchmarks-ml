@@ -1,0 +1,15 @@
+name: tf_gpu
+channels:
+  - defaults
+dependencies:
+  - python==3.8.10
+  - cudatoolkit==10.1.243
+  - cudnn
+  - pip
+  - pip:
+      - tensorflow-gpu==2.3.3
+      - tensorflow_datasets
+      - wandb
+      - pylint
+      - flake8
+      - black
