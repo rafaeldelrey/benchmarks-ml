@@ -3,11 +3,11 @@ channels:
   - defaults
 dependencies:
   - python==3.8.10
-  - cudatoolkit==10.1.243
+  - cudatoolkit
   - cudnn
   - pip
   - pip:
-      - tensorflow-gpu==2.3.3
+      - tensorflow-gpu
       - tensorflow_datasets
       - wandb
       - pylint
