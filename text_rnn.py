@@ -56,7 +56,7 @@ def main():
                   metrics=['accuracy'])
 
     model.fit(train_dataset,
-              epochs=10,
+              epochs=2,
               validation_data=test_dataset,
               validation_steps=30)
 
