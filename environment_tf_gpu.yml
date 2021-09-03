@@ -2,7 +2,7 @@ name: tf_gpu
 channels:
   - defaults
 dependencies:
-  - python==3.8.10
+  - python==3.8.11
   - cudatoolkit
   - cudnn
   - pip
@@ -10,6 +10,3 @@ dependencies:
       - tensorflow-gpu
       - tensorflow_datasets
       - wandb
-      - pylint
-      - flake8
-      - black
